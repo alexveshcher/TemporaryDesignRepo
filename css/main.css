@@ -31,6 +31,36 @@
 #wrapper.active #sidebar-wrapper {
   left: 150px; }
 
+.active #sidebar-top {
+  padding-top: 5px;
+  margin-bottom: 29px; }
+  .active #sidebar-top .logo-span {
+    font-weight: bold;
+    color: white;
+    font-size: 19px;
+    margin-left: 50px; }
+  .active #sidebar-top a {
+    vertical-align: middle;
+    color: white;
+    padding-right: 17px;
+    padding-top: 0px;
+    font-size: 20px; }
+
+#sidebar-top {
+  margin-top: 30px; }
+  #sidebar-top .logo-span {
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+    margin-left: 92px; }
+  #sidebar-top a {
+    padding-top: 25px;
+    padding-bottom: 35px;
+    vertical-align: middle;
+    color: white;
+    padding-right: 17px;
+    font-size: 40px; }
+
 .sidebar-nav li a {
   color: white;
   display: block;
@@ -57,14 +87,14 @@
   display: block;
   text-decoration: none; }
 
-#sidebar li a:hover {
+#sidebar > li a:hover {
   color: #fff;
   background: rgba(255, 0, 67, 0.8);
   text-decoration: none;
   border-left: 5px solid white; }
 
-#sidebar li a:active,
-#sidebar li a:focus {
+#sidebar > li a:active,
+#sidebar > li a:focus {
   text-decoration: none;
   background-color: #ff0043; }
 
@@ -79,12 +109,6 @@
 .sidebar-nav > .sidebar-brand a:hover {
   color: white;
   background: none; }
-
-#main_icon {
-  float: right;
-  padding-right: 15px;
-  font-size: 40px;
-  margin-bottom: 20px; }
 
 .sub_icon {
   font-size: 30px;
@@ -112,6 +136,7 @@
   padding: 5px; }
 
 #show-info {
+  font-size: 14px;
   display: block;
   text-decoration: none;
   color: white;
@@ -119,8 +144,8 @@
   padding: 5px 10px;
   height: 28px;
   text-align: center;
-  width: 60%;
-  margin: 15px anisiuto; }
+  width: 70%;
+  margin: 18px auto; }
 
 .active .sub_icon {
   font-size: 15px;
@@ -141,6 +166,17 @@
 
 #header {
   padding: 20px; }
+
+.sublist {
+  margin-left: 30px;
+  color: white;
+  border-left: 2px solid #0085cd; }
+  .sublist li {
+    list-style: none;
+    text-indent: 10px; }
+
+.sublist-hidden {
+  display: none; }
 
 .brand-name {
   font-size: 55px;
