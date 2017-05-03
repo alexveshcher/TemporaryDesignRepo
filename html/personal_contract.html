@@ -40,33 +40,81 @@
             <ul class="sidebar-nav" id="sidebar">
                 <li><a><span class='collapsible-text'>Home</span><span class="sub_icon glyphicon glyphicon-home"></span></a></li>
                 <li><a><span class='collapsible-text'>Personal</span><span class="sub_icon glyphicon glyphicon-user"></span></a></li>
+                <!--
+                <ul class='sublist hidden'>
+                    <li>d</li>
+                    <li>d</li>
+                    <li>d</li>
+                </ul>
+-->
                 <li><a><span class='collapsible-text'>Salary</span><span class="sub_icon glyphicon glyphicon-eur"></span></a></li>
                 <li><a><span class='collapsible-text'>Documents</span><span class="sub_icon glyphicon glyphicon-book"></span></a></li>
                 <li><a><span class='collapsible-text'>Agenda</span><span class="sub_icon glyphicon glyphicon-list-alt"></span></a></li>
-
             </ul>
         </div>
 
         <!-- Page content -->
-        <div id="page-content-wrapper">
+        <div class="container-fluid">
             <!-- Keep all page content within the page-content inset div! -->
-            <div class="page-content inset">
-                <div class="row">
-                    <div class="col-md-12">
-                        <p class="well lead">An Experiment using the sidebar template from startbootstrap.com which I integrated in my website (<a href="http://animeshmanglik.name">animeshmanglik.name</a>)</p>
-                        <p class="well lead">Click on the Menu to Toggle Sidebar . Hope you enjoy it!</p>
+            <div class="page-content">
+                <div id="header">
+                    <div class="row">
+                        <div class="col-md-offset-4 col-md-7">
+                            <div id="top-navigation">
+                                <form class="pull-left">
+                                    <input type="search" placeholder="Search">
+                                </form>
+                                <div id="top-icons" class="pull-right">
+                                    <a href="#"><span class=" glyphicon glyphicon-bell"></span></a>
+                                    <a href="#"><span class=" glyphicon glyphicon-cog"></span></a>
+                                    <a href="#"><span class=" glyphicon glyphicon-log-out"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="main-content" class="row">
+
+                    <div id="feed" class="col-md-offset-1 col-md-10">
+                        <h3>News</h3>
+                        <div class="news-item clearfix">
+                            <p class="datetime text-right">January 11th, 2016 at 9:00 AM</p>
+                            <img class="pull-left" src="../images/news-item-image.png" alt="">
+                            <div class="news">
+                                <h4 class="news-title">News title</h4>
+                                <p class="news-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p>
+                                <a class="pink-link pull-right" href="#">READ ➤</a>
+                            </div>
+                        </div>
+                        <div class="news-item clearfix">
+                            <p class="datetime text-right">January 11th, 2016 at 9:00 AM</p>
+                            <img class="pull-left" src="../images/news-item-image.png" alt="">
+                            <div class="news">
+                                <h4 class="news-title">News title</h4>
+                                <p class="news-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p>
+                                <a class="pink-link pull-right" href="#">READ ➤</a>
+                            </div>
+                        </div>
+                        <div class="news-item clearfix">
+                            <p class="datetime text-right">January 11th, 2016 at 9:00 AM</p>
+                            <img class="pull-left" src="../images/news-item-image.png" alt="">
+                            <div class="news">
+                                <h4 class="news-title">News title</h4>
+                                <p class="news-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p>
+                                <a class="pink-link pull-right" href="#">READ ➤</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
         </div>
 
-    </div>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="../js/sidebar.js"></script>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="../js/sidebar.js"></script>
 </body>
 
 </html>

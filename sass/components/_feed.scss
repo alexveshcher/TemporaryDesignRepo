@@ -1,0 +1,31 @@
+.news-item {
+    background-color: white;
+    border-radius: 10px;
+    padding: 11px 36px;
+    margin: 1px;
+    color: #8f9dab;
+//    overflow: hidden;
+    
+    .datetime {
+        font-size: 16px;
+    }
+    
+    .news {
+        margin-left: 90px;
+    }
+    
+    .news-title {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    .news-content {
+        font-size: 18px;
+    }
+    
+    .pink-link {
+        color: $pink;
+        font-size: 18px;
+    }
+    
+}
