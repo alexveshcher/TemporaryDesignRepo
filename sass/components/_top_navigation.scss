@@ -2,8 +2,14 @@
     margin-top: 10px;
     a span {
         font-size: 25px;
+        
+    }
+    
+    a {
+        padding-left: 25px;
     }
 }
+
 
 input {
 	outline: none;
@@ -24,7 +30,7 @@ input[type=search] {
 	background: white url(http://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
 	border: solid 1px #ccc;
 	padding: 9px 10px 9px 32px;
-	width: 200px;
+	width: 60%;
 	
 	-webkit-border-radius: 10em;
 	-moz-border-radius: 10em;
@@ -35,7 +41,7 @@ input[type=search] {
 	transition: all .5s;
 }
 input[type=search]:focus {
-	width: 300px;
+	width: 100%;
 	background-color: #fff;
 	border-color: #66CC75;
 	

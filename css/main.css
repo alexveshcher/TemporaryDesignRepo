@@ -132,9 +132,6 @@
 #sidebar > li {
   text-align: left; }
 
-#top-icons a {
-  margin-left: 25px; }
-
 .container-fluid {
   padding: 0; }
 
@@ -270,6 +267,8 @@ input[type=checkbox] {
   margin-top: 10px; }
   #top-navigation a span {
     font-size: 25px; }
+  #top-navigation a {
+    padding-left: 25px; }
 
 input {
   outline: none; }
@@ -288,7 +287,7 @@ input[type=search] {
   background: white url(http://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
   border: solid 1px #ccc;
   padding: 9px 10px 9px 32px;
-  width: 200px;
+  width: 60%;
   -webkit-border-radius: 10em;
   -moz-border-radius: 10em;
   border-radius: 10em;
@@ -297,7 +296,7 @@ input[type=search] {
   transition: all .5s; }
 
 input[type=search]:focus {
-  width: 300px;
+  width: 100%;
   background-color: #fff;
   border-color: #66CC75;
   -webkit-box-shadow: 0 0 5px rgba(109, 207, 246, 0.5);
@@ -315,14 +314,19 @@ input:-webkit-input-placeholder {
 .news-item {
   background-color: white;
   border-radius: 10px;
-  padding: 11px 36px;
-  margin: 1px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-right: 10px;
+  margin: 2px;
   color: #8f9dab; }
   .news-item .datetime {
     font-size: 16px; }
+  .news-item .news-image {
+    padding-left: 12%; }
   .news-item .news {
-    margin-left: 90px; }
+    padding-left: 2.8%; }
   .news-item .news-title {
+    margin: 0px;
     font-size: 24px;
     font-weight: bold; }
   .news-item .news-content {
@@ -330,5 +334,9 @@ input:-webkit-input-placeholder {
   .news-item .pink-link {
     color: #ff0043;
     font-size: 18px; }
+
+.padding-0 {
+  padding-left: 0;
+  padding-right: 0; }
 
 /*# sourceMappingURL=main.css.map */
