@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>B&amp;S</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/main.css">
+
+    <!-- Bootstrap Date-Picker Plugin -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css" />
+
+</head>
+
+<body>
+
+    <form class="create-form">
+        <div class="form-header">
+           <div class="clearfix">
+               <a href="#"><span class="glyphicon glyphicon-remove"></span></a>
+           </div>
+            
+            <h2>New Contract</h2>
+        </div>
+        <div class="form-body">
+            <div class="form-group">
+                <label>Contract type</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Comments</label>
+                <textarea class="form-control" rows="3"></textarea>
+            </div>
+<!--            https://formden.com/blog/date-picker-->
+            <div class="form-group">
+                <label for="exampleInputFile">Date started</label>
+                <input class="form-control" id="date" name="date1"  type="text" />
+                <script>
+                    $(document).ready(function() {
+                        var date_input = $('input[name="date1"]'); //our date input has the name "date"
+                        var container = $('.bootstrap-iso form').length > 0 ? $('.bootstrap-iso form').parent() : "body";
+                        var options = {
+                            format: 'dd/mm/yyyy',
+                            container: container,
+                            todayHighlight: true,
+                            autoclose: true,
+                        };
+                        date_input.datepicker(options);
+                    })
+
+                </script>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputFile">Date finished</label>
+                <input class="form-control" id="date" name="date2"  type="text" />
+                <script>
+                    $(document).ready(function() {
+                        var date_input = $('input[name="date2"]'); //our date input has the name "date"
+                        var container = $('.bootstrap-iso form').length > 0 ? $('.bootstrap-iso form').parent() : "body";
+                        var options = {
+                            format: 'dd/mm/yyyy',
+                            container: container,
+                            todayHighlight: true,
+                            autoclose: true,
+                        };
+                        date_input.datepicker(options);
+                    })
+
+                </script>
+            </div>
+        </div>
+
+        <div class="form-footer">
+            <button type="submit" class="btn">Create</button>
+        </div>
+    </form>
+
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/sidebar.js"></script>
+</body>
+
+</html>

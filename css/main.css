@@ -213,11 +213,11 @@
     height: 50px;
     font-size: 24px; }
 
-label {
+.top-label {
   margin-top: 10px;
   font-weight: 100; }
 
-.btn {
+.pink-btn {
   margin-bottom: 38px;
   background-color: #ff0043;
   color: white;
@@ -226,7 +226,7 @@ label {
   font-weight: bold;
   font-size: 25px;
   border-radius: 30px; }
-  .btn:hover, .btn:active, .btn:focus, .btn:visited {
+  .pink-btn:hover, .pink-btn:active, .pink-btn:focus, .pink-btn:visited {
     color: white;
     -webkit-box-shadow: 0px 0px 15px 3px rgba(245, 29, 69, 0.75);
     -moz-box-shadow: 0px 0px 15px 3px rgba(245, 29, 69, 0.75);
@@ -419,6 +419,35 @@ input:-webkit-input-placeholder {
     border-bottom: 5px solid rgba(255, 0, 67, 0); }
   #categories a:hover {
     border-bottom: 5px solid #ff0043; }
+
+.create-form {
+  width: 300px;
+  color: #8f9dab; }
+
+.form-header {
+  background-color: #e9eef1;
+  text-align: center;
+  color: #8f9dab;
+  padding: 8px; }
+  .form-header a {
+    display: block;
+    float: right;
+    color: black; }
+  .form-header h2 {
+    margin: 0 0 10px 0;
+    font-weight: bold; }
+
+.form-body {
+  padding: 20px 30px; }
+
+.form-footer {
+  background-color: #e9eef1;
+  text-align: center;
+  padding: 20px 30px; }
+  .form-footer button {
+    width: 100%;
+    background-color: #009ae5;
+    color: white; }
 
 .padding-0 {
   padding-left: 0;
