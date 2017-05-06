@@ -22,7 +22,35 @@
     td {
         padding: 18px;
     }
+    
+    a {
+        padding: 0;
+        display: inline;
+        border: 4px solid black;
+    }
 }
+
+.col-md-5 {
+    padding: 0;
+}
+
+.col-md-5:nth-child(1) {
+    padding-right: 20px;
+}
+
+.col-md-5:nth-child(2) {
+    padding-right: 20px;
+}
+
+.col-md-1:nth-child(3) {
+    padding: 0;
+    margin-right: 0;
+}
+
+.spending {
+    margin-bottom: 15px;
+}
+
 
 .td-blue-text {
     color: $blue-table-text;
