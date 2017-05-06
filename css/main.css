@@ -371,6 +371,55 @@ input:-webkit-input-placeholder {
     color: #ff0043;
     font-size: 18px; }
 
+#personal-contract {
+  width: 80%;
+  margin: 50px auto; }
+
+.data-table {
+  width: 100%;
+  text-align: left; }
+  .data-table thead {
+    background: #cfdbe1;
+    color: #6b8293;
+    font-size: 24px; }
+  .data-table tbody {
+    color: #8f9dab;
+    background-color: white;
+    font-size: 24px; }
+    .data-table tbody tr {
+      border-bottom: 2px solid #e9eef1; }
+  .data-table th {
+    padding: 20px;
+    white-space: nowrap; }
+  .data-table td {
+    padding: 18px; }
+
+.td-blue-text {
+  color: #0098e4; }
+
+.new-button {
+  background: #009ae5;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin-bottom: 20px; }
+
+#categories {
+  text-align: center;
+  clear: both; }
+  #categories a {
+    display: inline-block;
+    color: #8f9dab;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 5px solid rgba(255, 0, 67, 0); }
+  #categories a:hover {
+    border-bottom: 5px solid #ff0043; }
+
 .padding-0 {
   padding-left: 0;
   padding-right: 0; }
