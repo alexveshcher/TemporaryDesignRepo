@@ -422,6 +422,24 @@ input:-webkit-input-placeholder {
   padding: 10px 20px;
   margin-bottom: 20px; }
 
+.status-button {
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 60%; }
+
+.approved {
+  background: green; }
+
+.waiting {
+  background: #009ae5; }
+
+.denied {
+  background: #ff0043; }
+
 #categories {
   text-align: center;
   clear: both; }

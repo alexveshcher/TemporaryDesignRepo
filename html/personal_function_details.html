@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>B&amp;S</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/main.css">
+
+</head>
+
+<body>
+
+    <div id="wrapper" class="active">
+
+        <!-- Sidebar -->
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <div id="sidebar-top">
+                <span class="logo-span">B&amp;S</span>
+                <a id="menu-toggle" class="pull-right" href="#"><span id="control" class="glyphicon glyphicon-remove-circle"></span></a>
+            </div>
+
+
+            <div id="user-photo">
+                <img src="../images/user_photo.png" alt="user photo">
+            </div>
+
+
+            <a id='show-info' href="#">Show info ►</a>
+
+            <ul class="sidebar-nav" id="sidebar">
+                <li><a><span class='collapsible-text'>Home</span><span class="sub_icon glyphicon glyphicon-home"></span></a></li>
+                <li><a id="personal"><span class='collapsible-text'>Personal</span><span class="sub_icon glyphicon glyphicon-user"></span></a></li>
+                <ul id="personal-options" class='sublist sidebar-nav sublist-hidden'>
+                    <li><a href="#">Contract</a></li>
+                    <li>Function details</li>
+                    <li>Declarations</li>
+                </ul>
+                <li><a><span class='collapsible-text'>Salary</span><span class="sub_icon glyphicon glyphicon-eur"></span></a></li>
+                <li><a><span class='collapsible-text'>Documents</span><span class="sub_icon glyphicon glyphicon-book"></span></a></li>
+                <li><a><span class='collapsible-text'>Agenda</span><span class="sub_icon glyphicon glyphicon-list-alt"></span></a></li>
+            </ul>
+        </div>
+
+        <!-- Page content -->
+        <div class="container-fluid">
+            <!-- Keep all page content within the page-content inset div! -->
+            <div class="page-content">
+                <div id="header">
+                    <div class="row">
+                        <div id="top-navigation" class="clearfix">
+                            <form class="col-xs-6 col-sm-offset-1 col-sm-6 col-md-offset-2 col-md-7">
+                                <input type="search" placeholder="Search">
+                            </form>
+                            <div class="col-xs-6 col-sm-5 col-md-3">
+                                <div id="top-icons" class="pull-right">
+                                    <a href="#"><span class=" glyphicon glyphicon-bell"></span></a>
+                                    <a href="#"><span class=" glyphicon glyphicon-cog"></span></a>
+                                    <a href="#"><span class=" glyphicon glyphicon-log-out"></span></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="categories">
+                    <a class="category" href="#">Contract</a>
+                    <a class="category" href="#">Function Details</a>
+                    <a class="category" href="#">Declaraions</a>
+                </div>
+
+
+                <div id="main-content" class="row">
+
+
+                    <div id="personal-contract">
+                        <div class="row">
+                            <button type="button" class="new-button pull-right">+ New Function</button>
+                        </div>
+
+                        <div class="row">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>Date</th>
+                                        <th>Function</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>01/01/15 (AP)</td>
+                                        <td class="td-blue-text">Junior Financial Accountant</td>
+                                    </tr>
+                                    <tr>
+                                        <td>01/01/15 (AP)</td>
+                                        <td class="td-blue-text">Junior Financial Accountant</td>
+                                    </tr>
+                                    <tr>
+                                        <td>01/01/15 (AP)</td>
+                                        <td class="td-blue-text">Junior Financial Accountant</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="../js/sidebar.js"></script>
+</body>
+
+</html>
