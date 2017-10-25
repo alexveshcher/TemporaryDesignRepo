@@ -12,3 +12,5 @@ $("#personal").click(function (e) {
     e.preventDefault();
     $("#personal-options").toggleClass("sublist-hidden");
 });
+
+log
